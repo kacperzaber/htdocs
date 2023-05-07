@@ -1,0 +1,93 @@
+body {
+    font-family: Arial; 
+    margin: 0;  
+}
+.container {
+    width: 97%;
+    margin: auto;
+}
+header img {
+    width: 100%;
+}
+
+.nav {
+    margin-left: 0px;
+}
+li {
+    list-style: none;
+}
+
+.menu {
+    margin: 0px;   
+    display: flex; 
+    text-decoration: none;
+    justify-content: left;
+    background-color: #696969;
+    box-shadow: 0 0 20px gray;
+    color: white;
+}  
+.menu li{ 
+    margin-left: 20px;
+    padding: 10px 20px 10px;    
+}
+
+.menu li:hover{
+    background-color: #C0C0C0;
+    cursor: pointer;    
+}
+a {
+    text-decoration: none;
+}
+.menu a{
+    color: white;  
+}
+h1 {
+    font-size: 50px;   
+    margin: 0px;
+    padding: 40px;
+}
+h3 {
+    color: black;
+}
+p {
+    padding-left: 20px;
+    margin: 0px;
+}
+#games,
+#home  {
+    margin: 0px;    
+    height: 100%;
+    background-color: white;    
+    color:black;
+}
+
+
+#games a {
+    color: black;    
+    display: flex;
+    justify-content: center;   
+}
+
+.game {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+}
+
+.game li{
+    padding: 10px 20px;
+  
+}
+
+.logout {   
+    float: right;
+    margin-top: 10px;
+    margin-left: 65%;
+}
+
+
+
+

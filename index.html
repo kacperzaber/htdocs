@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Csorich Deisgner</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <section id="menu">
+            <ul>
+                <li><a href="#menu" target="_blank">Main</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#media">Media</a></li>
+                <li><a href="#contact">Contact</a></li>                
+            </ul>
+            <!-- <p> Hejka! </br></br> Jestem Patrycja i od 2 lat zajmuje się projektowaniem wnętrz.</p> -->
+            <div class="return-icon"> 
+                <a href="#menu"> <img src="back-icon.png" /> </a>
+            </div>                   
+        </section>
+    </header>
+    <section id="portfolio">
+        <h1><a href="login_page.php">Portfolio </a></h1>   
+    </section>
+    <section id="media">
+        <h1>Media </h1> 
+              <!-- ul.gallery>li.thumbnail*10>img[src="slider/$"]  Generowanie listy wszystkich-->
+              <ul class="gallery">
+                <li class="thumbnail"><img src="slider/1.png" alt=""></li>
+                <li class="thumbnail"><img src="slider/2.png" alt=""></li>
+                <li class="thumbnail"><img src="slider/3.png" alt=""></li>
+                <li class="thumbnail"><img src="slider/4.png" alt=""></li>
+                <li class="thumbnail"><img src="slider/5.png" alt=""></li>
+                <li class="thumbnail"><img src="slider/6.png" alt=""></li>
+                <li class="thumbnail"><img src="slider/7.png" alt=""></li>            
+              </ul>  
+              <div class="popup hidden">
+                <button class="popup_close">X</button>
+                <img src="slider/1.png" alt="" class="popup__img">
+              </div>
+              <script src="app.js"></script>
+        </section>
+    <section id="contact">
+        <h1>Contact </h1>
+        <div class="box">
+            <form>
+                <label><input type="text" name="name" id="name" placeholder="Podaj imię"></label></br>
+                <label><input type="email" name="email" id="email" placeholder="Wpisz e-mail"></label></br>
+                <textarea id="content" name="content" rows="4" cols="50" placeholder="Treść wiadomości..."></textarea>
+                </br>
+                <input type="button" value="Wyślij wiadomość" id="form-button">
+            </form>
+        </div>
+        <div class="community">
+            <a href="https://www.instagram.com/csorich_designer/"><img src="instagram.png" /></a>
+        </div>
+    </section>
+</body>
+
+</html>
