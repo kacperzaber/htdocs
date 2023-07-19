@@ -1,11 +1,13 @@
 body {
-    font-family: Arial; 
-    margin: 0;  
+    font-family: Arial;
+    margin: 0;
 }
+
 .container {
     width: 97%;
     margin: auto;
 }
+
 header img {
     width: 100%;
 }
@@ -13,59 +15,75 @@ header img {
 .nav {
     margin-left: 0px;
 }
+
 li {
     list-style: none;
 }
 
 .menu {
-    margin: 0px;   
-    display: flex; 
+    margin: 0px;
+    display: flex;
+    width: auto;
     text-decoration: none;
     justify-content: left;
     background-color: #696969;
     box-shadow: 0 0 20px gray;
     color: white;
-}  
-.menu li{ 
-    margin-left: 20px;
-    padding: 10px 20px 10px;    
 }
 
-.menu li:hover{
-    background-color: #C0C0C0;
-    cursor: pointer;    
+.menu li {
+    margin-left: 20px;
+    padding: 10px 20px 10px;
 }
+
+.menu li:hover {
+    background-color: #C0C0C0;
+    cursor: pointer;
+}
+
 a {
     text-decoration: none;
 }
-.menu a{
-    color: white;  
+
+.menu a {
+    color: white;
 }
+
 h1 {
-    font-size: 50px;   
+    font-size: 50px;
     margin: 0px;
     padding: 40px;
 }
+
 h3 {
     color: black;
 }
+
 p {
     padding-left: 20px;
     margin: 0px;
 }
+
 #games,
-#home  {
-    margin: 0px;    
+#home {
+    margin: 0px;
     height: 100%;
-    background-color: white;    
-    color:black;
+    background-color: white;
+    color: black;
 }
 
 
-#games a {
-    color: black;    
+a.link {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    color: black;
     display: flex;
-    justify-content: center;   
+    justify-content: center;
+}
+
+#counter h1,
+h3 {
+    text-align: center;
 }
 
 .game {
@@ -77,17 +95,39 @@ p {
     padding: 0;
 }
 
-.game li{
+.game li {
     padding: 10px 20px;
-  
 }
 
-.logout {   
+#todolist {
+    text-align: center;
+}
+
+#wyszukiwarka,
+#todolist ul li {
+    text-align: center;
+}
+
+#counter .stoper {
+    display: block;
+    text-align: center;
+}
+
+#too .stoper p {
+    text-align: center;
+}
+
+.stoper button {
+    font-size: 44px;
+    margin: 30px;
+}
+
+.reset {
+    margin-left: 20px;
+}
+
+.logout {
     float: right;
     margin-top: 10px;
-    margin-left: 65%;
+    margin-left: 40%;
 }
-
-
-
-

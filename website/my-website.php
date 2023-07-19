@@ -25,18 +25,19 @@ if(isset($_SESSION['isLog']) && $_SESSION['isLog'] == true) { // sprawdzam czy u
 </head>
 
 <body>
+   
     <div class="container">
         <section id="home">
-        <header><img src="header.png"/></header>
-        
+        <header><img src="header.png"/></header>        
             <div class="nav">
                 <ul class="menu">
-                    <li>Home</li>
+                    <li><a href="#home"> Home</li>
                     <li><a href="#games">Games</a></li>
+                    <li><a href="#todolist">TO-DO LIST</a></li>
+                    <li><a href="#wyszukiwarka">Wyszukiwarka</a></li>
+                    <li><a href="#counter">Odliczanie do wakacji</a></li>
                     <li><a href="https://github.com/kacperzaber">GitHub</a></li>
-                    <li><a href="../cv/index.html">CV</a></li>                    
-                   
-                
+                    <li><a href="../cv/index.html">CV</a></li>                                  
             <div class="logout">
             <?php
             echo "Welcome " .$_SESSION['user'].'! [<a href="../logout.php">Wyloguj</a>]'
@@ -72,9 +73,53 @@ if(isset($_SESSION['isLog']) && $_SESSION['isLog'] == true) { // sprawdzam czy u
                 <li>Gra 2</li>
                 <li>Gra 3</li>
             </ul>
-            <a href="#home">Back to Home </a>
-        </section>        
+        
+        </section>    
+        <section id="counter">  
+           <h1>Odliczanie do wakacji</h1>
+           <h3>
+            <span class="days">.</span> dni
+            <span class="hours">.</span> godzin
+            <span class="minutes">.</span> minut
+            <span class="seconds">.</span> sekund
+           </h3>
+           <h1>Stoper</h1>
+           <div class="stoper">
+           <button class="start">Start</button>
+           <button class="reset">Reset</button>
+           <div class="time">
+            <p>Czas od startu:</p>
+            <div class='time'></div>
+           </div>
+           </div>
+        <section>
+            <section id="todolist">
+                <h1>To Do List</h1>
+                <h1>Liczba zadań:<span></span></h1>
+                <input type="text"> <input type="button" value="Dodaj" class='add'>
+                <ul>         
+                </ul>
+                
+            </section>       
+            <section id="wyszukiwarka">
+                <h1>Wyszukiwarka</h1>
+                <input type="text">       
+                <ul>
+                    <li>brukselka</li>           
+                    <li>groch</li>           
+                    <li>batat</li>           
+                    <li>ziemniak</li>           
+                    <li>burak</li>           
+                    <li>fasola</li>           
+                    <li>marchewka</li>           
+                    <li>piertruszka</li>           
+                    <li>por</li>           
+                </ul>
+                
+            </section>
+        <a class ='link' href="#home">Back to Home </a>
     </div>
+    <script src="main.js"></script>
 </body>
 
 </html>

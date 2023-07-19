@@ -8,6 +8,7 @@ body {
     margin: 0;
     scroll-behavior: smooth;
 }
+
 a {
     text-decoration: none;
     color: gray
@@ -55,7 +56,7 @@ li {
 #menu li {
     margin-top: 50px;
     display: block;
-    font-family: Arial, Helvetica, sans-serif;  
+    font-family: Arial, Helvetica, sans-serif;
     background-color: #333131;
     font-size: 100%;
     opacity: 40%;
@@ -77,7 +78,7 @@ li {
 }
 
 #menu li a:hover {
-    color: black;  
+    color: black;
     background-color: gray;
     cursor: pointer;
 }
@@ -188,7 +189,7 @@ div.box {
     -moz-transform: scale(1.2);
 }
 
-.return-icon img{
+.return-icon img {
     position: fixed;
     height: 30px;
     bottom: 15px;
@@ -356,7 +357,7 @@ div.box {
     overflow: hidden;
 }
 
-.login-page button:after{
+.login-page button:after {
     background: rgba(255, 255, 255, 0.5);
     content: "";
     display: block;
@@ -366,14 +367,14 @@ div.box {
     top: -50%;
     transform: skewX(-15deg);
     transition: left 0.15s linear;
-    width: 50px; 
+    width: 50px;
 }
 
-.login-page button:hover:after{
+.login-page button:hover:after {
     left: 110%;
 }
 
-.form-icon{
+.form-icon {
     border: solid 3px rgba(255, 255, 255, 0.8);
     border-radius: 50%;
     box-shadow: 0px 8px 24px 0 rgba(0, 0, 0, 0.3);
@@ -381,30 +382,30 @@ div.box {
     margin: 0 auto 24px;
     position: relative;
     overflow: hidden;
-    width: 72px; 
+    width: 72px;
 }
 
-.form-icon:before{
+.form-icon:before {
     background: rgba(255, 255, 255, 0.8);
-    bottom: 0;   
+    bottom: 0;
     border-radius: 50%;
     content: "";
     display: block;
-    height: 24px;  
+    height: 24px;
     position: absolute;
-    width: 70px;  
+    width: 70px;
 }
 
-.form-icon:after{
-    background: rgba(255, 255, 255, 0.8); 
-    bottom: 45%;     
+.form-icon:after {
+    background: rgba(255, 255, 255, 0.8);
+    bottom: 45%;
     border-radius: 50%;
     content: "";
     display: block;
-    left: 50%;    
-    height: 30px;  
+    left: 50%;
+    height: 30px;
     position: absolute;
-    transform: translateX(-50%) ;
+    transform: translateX(-50%);
     width: 30px;
 }
 
@@ -415,11 +416,13 @@ div.box {
     margin: 0 auto 32px;
     width: 80%;
 }
+
 .return-home {
     margin-top: 10px;
     margin-bottom: 5px;
 }
-.return-home a{
+
+.return-home a {
     color: rgba(245, 245, 245, 0.603);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
